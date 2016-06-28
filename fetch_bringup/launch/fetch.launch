@@ -53,4 +53,10 @@
   <!-- Teleop -->
   <include file="$(find fetch_bringup)/launch/include/teleop.launch.xml" />
 
+  <!-- Moveit -->
+  <include file="$(find fetch_moveit_config)/launch/move_group.launch" />
+
+  <!-- rosbridge -->
+  <include file="$(find rosbridge)/launch/fetch_proxy.launch" />
+
 </launch>
