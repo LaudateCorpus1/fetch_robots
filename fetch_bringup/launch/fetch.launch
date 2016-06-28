@@ -53,17 +53,16 @@
   <!-- Teleop -->
   <include file="$(find fetch_bringup)/launch/include/teleop.launch.xml" />
 
-<<<<<<< HEAD
   <!-- Moveit -->
   <include file="$(find fetch_moveit_config)/launch/move_group.launch" />
 
   <!-- rosbridge -->
   <include file="$(find rosbridge)/launch/fetch_proxy.launch" />
-=======
+
   <!-- Software Runstop -->
   <include file="$(find fetch_bringup)/launch/include/runstop.launch.xml">
     <arg name="flags" value="-a -b -g" />
   </include>
->>>>>>> fetchrobotics/indigo-devel
+
 
 </launch>
